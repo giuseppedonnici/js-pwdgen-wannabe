@@ -12,8 +12,11 @@ const colore = prompt("Qual è il tuo colore preferito?");
 console.log(colore);
 
 //Preparo il risultato della password generata
-const pswGenerata = nome + cognome + colore + 21;
-console.log(pswGenerata)
+// const pswGenerata = nome + cognome + colore + 21;
+// console.log(pswGenerata);
+
+const pswGenerata = `${nome}${cognome}${colore}21`;
+console.log(pswGenerata);
 
 //Stampo la password generata nella pagina
 document.getElementById("password").innerHTML = pswGenerata;
