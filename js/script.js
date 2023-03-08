@@ -1,7 +1,7 @@
 // Raccolta dati dell'utente
 //Chiedo il nome
 const nome = prompt("Come ti chiami?");
-console.log(name);
+console.log(nome);
 
 //Chiedo il cognome
 const cognome = prompt("Qual è il tuo cognome?");
